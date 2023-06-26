@@ -37,6 +37,9 @@ Contributions to the SVG Logo Maker are welcome! If you find any issues or have 
 ## Video Demo
 
 
+https://github.com/Tehila03/SVG-Logo-Maker/assets/125328462/c3576220-8650-426b-a5a1-fc47a66bdffe
+
+
 ## Credits
 
 The SVG Logo Maker was developed by Tehila03. If you have any questions or need assistance, you can reach out to me at tehilabootcamp@gmail.com.
