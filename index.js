@@ -6,7 +6,7 @@ const Circle = require('./lib/circle');
 const Triangle = require('./lib/triangle');
 const Square = require('./lib/square');
 
-const questions = [{ type: "input", name: "letters", message: "Choose up to 3 letters" }, { type: "input", name: "textColor", message: "" }];
+const questions = [{ type: "input", name: "letters", message: "Choose up to 3 letters" }, { type: "input", name: "textColor", message: "Choose a color for the text" }, { type: "list", name: "shape", message: "Choose a shape", choices: ["Square", "Circle", "Triangle"] }, { type: "input", name: "shapeColor", message: "Choose a color for the shape" }];
 
 inquirer.prompt(questions).then(
     response => {
