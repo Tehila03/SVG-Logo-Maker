@@ -2,9 +2,9 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 
-const Circle = require('./lib/circle');
-const Triangle = require('./lib/triangle');
-const Square = require('./lib/square');
+const Circle = require('./lib/shapes/circle');
+const Triangle = require('./lib//shapes/triangle');
+const Square = require('./lib/shapes/square');
 
 const questions = [{ type: "input", name: "letters", message: "Choose up to 3 letters" }, { type: "input", name: "textColor", message: "Choose a color for the text" }, { type: "list", name: "shape", message: "Choose a shape", choices: ["Square", "Circle", "Triangle"] }, { type: "input", name: "shapeColor", message: "Choose a color for the shape" }];
 
